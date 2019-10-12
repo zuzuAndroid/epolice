@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="db" />
+        <module name="common" />
+        <module name="webapi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.8" />
+      <module name="common" target="1.5" />
+      <module name="db" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="epolice" target="1.8" />
+      <module name="webapi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="common" options="" />
+      <module name="db" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="epolice" options="-parameters" />
+      <module name="webapi" options="-parameters" />
+    </option>
+  </component>
+</project>
