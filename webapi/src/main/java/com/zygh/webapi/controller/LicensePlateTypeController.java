@@ -44,6 +44,7 @@ public class LicensePlateTypeController {
         }
 
         int res = licensePlateTypeService.add(params);
+
         if(res > 0){
             return new CommonResult().success();
         }

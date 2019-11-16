@@ -26,7 +26,7 @@
       <module name="common" options="" />
       <module name="db" options="-parameters" />
       <module name="demo" options="-parameters" />
-      <module name="epolice" options="-parameters" />
+      <module name="epolice" options="" />
       <module name="webapi" options="-parameters" />
     </option>
   </component>
