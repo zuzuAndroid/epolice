@@ -1,6 +1,7 @@
 package com.zygh.webapi.controller;
 
 import cn.hutool.core.util.StrUtil;
+import com.alibaba.fastjson.JSONObject;
 import com.zygh.common.CommonResult;
 import com.zygh.webapi.service.FirstFilterService;
 import dto.FirstFilterDto;
@@ -171,5 +172,31 @@ public class FirstFilterController {
         int pageNum = params.getPageNum();
         int pageSize = params.getPageSize();
         return firstFilterService.count(params,pageNum,pageSize);
+    }
+
+    @ApiOperation("根据ID修改车牌")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "id",value = "id", required = true, paramType = "query"),
+            @ApiImplicitParam(name = "number",value = "车牌号码", required = true, paramType = "query"),
+    })
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "OK", response = CommonResult.class)
+    })
+    @RequestMapping(value = "/update-license-number", method = RequestMethod.POST)
+    public Object updateLicenseNumber(@RequestBody JSONObject jsonObject) {
+
+        String number = jsonObject.get("number").toString();
+
+        if(StrUtil.isEmpty(jsonObject.get("id").toString())){
+            return new CommonResult().validateFailed("ID不能为空");
+        }
+
+        if(StrUtil.isEmpty(number)){
+            return new CommonResult().validateFailed("车牌不能为空");
+        }
+
+        int id = Integer.valueOf(jsonObject.get("id").toString());
+
+        return firstFilterService.updateLicenseNumberById(number,id);
     }
 }

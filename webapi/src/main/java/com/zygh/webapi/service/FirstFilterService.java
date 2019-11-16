@@ -83,4 +83,8 @@ public class FirstFilterService {
         PageInfo<FirstFilterStatistics> pageInfo = new PageInfo<>(list);
         return pageInfo;
     }
+
+    public int updateLicenseNumberById(String hphm,int id){
+        return firstFilterMapper.updateLicenseNumberById(hphm,id);
+    }
 }

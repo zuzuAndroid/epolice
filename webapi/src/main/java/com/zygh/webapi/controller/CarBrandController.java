@@ -36,7 +36,7 @@ public class CarBrandController {
     @RequestMapping(value = "/add", method = RequestMethod.POST)
     public Object add(@RequestBody CarBrand params) {
 
-        if(StrUtil.isEmpty(String.valueOf(params.getCode()))){
+        if(StrUtil.isEmpty(params.getCode())){
             return new CommonResult().validateFailed("编码不能为空");
         }
 

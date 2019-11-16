@@ -143,7 +143,7 @@ public interface FirstFilterMapper {
             "and w.period=#{query.period,jdbcType=TINYINT} " +
             "</if>" +
             "and to_date(w.cjsj,'yyyy-MM-dd hh24:mi:ss') &gt;= to_date(#{query.startDate},'yyyy-MM-dd hh24:mi:ss') " +
-            "and to_date(w.cjsj,'yyyy-MM-dd hh24:mi:ss') &lt;= to_date(#{query.endDate},'yyyy-MM-dd hh24:mi:ss') limit #{limit}))" +
+            "and to_date(w.cjsj,'yyyy-MM-dd hh24:mi:ss') &lt;= to_date(#{query.endDate},'yyyy-MM-dd hh24:mi:ss') limit #{query.limit}))" +
             " </script>"})
     Integer pickUp(@Param("query") FirstFilterDto params);
 
@@ -177,4 +177,7 @@ public interface FirstFilterMapper {
      */
     @Update("update wfcs set username='',sfsh=-1")
     Integer releaseAll();
+
+    @Update("update wfcs set hphm=#{hphm} where sysid=#{id}")
+    Integer updateLicenseNumberById(String hphm,int id);
 }

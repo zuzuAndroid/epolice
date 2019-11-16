@@ -3,7 +3,7 @@ package pojo;
 import lombok.Data;
 
 @Data
-public class CarBrand {
+public class IllegalDataSource {
 
     private int id;
     private String code;

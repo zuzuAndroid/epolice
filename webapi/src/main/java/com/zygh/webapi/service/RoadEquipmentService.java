@@ -13,13 +13,13 @@ import pojo.RoadEquipment;
 import java.util.List;
 
 @Service
-@CacheConfig(cacheNames = "roadEquipment")
+//@CacheConfig(cacheNames = "roadEquipment")
 public class RoadEquipmentService {
 
     @Autowired
     RoadEquipmentMapper roadEquipmentMapper;
 
-    @Cacheable(value="roadEquipmentList", key="#pageNum")
+    //@Cacheable(value="roadEquipmentList", key="#pageNum")
     public PageInfo findAll(int pageNum, int pageSize){
         PageHelper.startPage(pageNum, pageSize);
         List<RoadEquipment> list = roadEquipmentMapper.findAll();
@@ -40,7 +40,7 @@ public class RoadEquipmentService {
         return pageInfo;
     }
 
-    @CacheEvict(cacheNames = "roadEquipment", allEntries=true, beforeInvocation=true)
+    //@CacheEvict(cacheNames = "roadEquipment", allEntries=true, beforeInvocation=true)
     public void cacheClean(){
 
     }
