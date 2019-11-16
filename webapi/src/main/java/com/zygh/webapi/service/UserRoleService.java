@@ -2,8 +2,8 @@ package com.zygh.webapi.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.zygh.webapi.dao.UserRoleMapper;
-import com.zygh.webapi.pojo.UserRole;
+import mapper.UserRoleMapper;
+import pojo.UserRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.zygh.webapi.pojo;
+package pojo;
 
 import lombok.Data;
 

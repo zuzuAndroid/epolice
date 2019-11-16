@@ -1,7 +1,5 @@
 package com.zygh.webapi.controller;
 
-
-import com.zygh.webapi.aspect.OperationLog;
 import com.zygh.webapi.service.LogOperationService;
 import com.zygh.webapi.service.UserLoginLogService;
 import io.swagger.annotations.Api;
@@ -14,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("public/log")
-@Api(tags = "Log", description = "日志")
+@Api(tags = "日志", description = "LogController")
 public class LogController {
 
     @Autowired

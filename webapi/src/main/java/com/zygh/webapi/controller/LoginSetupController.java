@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/public/login-setup")
-@Api(tags = "loginSetup", description = "用户登陆设置")
+@Api(tags = "用户登陆设置", description = "LoginSetupController")
 public class LoginSetupController {
 
     @Autowired

@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("public/limitip")
-@Api(tags = "LimitIp", description = "IP限制")
+@Api(tags = "IP限制", description = "LimitIpController")
 public class LimitIpController {
 
     @Autowired

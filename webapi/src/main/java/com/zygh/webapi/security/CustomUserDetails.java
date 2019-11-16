@@ -1,10 +1,10 @@
 package com.zygh.webapi.security;
 
-import com.zygh.webapi.pojo.UserAccount;
-import com.zygh.webapi.pojo.UserRole;
+import pojo.UserRole;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import pojo.UserAccount;
 
 import java.util.Collection;
 import java.util.List;
@@ -30,7 +30,7 @@ public class CustomUserDetails implements UserDetails {
 
     @Override
     public String getPassword() {
-        return userAccount.getPwd();
+        return userAccount.getPassword();
     }
 
     @Override

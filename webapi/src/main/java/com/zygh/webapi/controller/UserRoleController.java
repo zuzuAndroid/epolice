@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("public/role")
-@Api(tags = "Role", description = "角色")
+@Api(tags = "角色", description = "UserRoleController")
 public class UserRoleController {
 
     @Autowired

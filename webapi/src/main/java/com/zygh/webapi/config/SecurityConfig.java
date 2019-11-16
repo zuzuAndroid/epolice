@@ -42,6 +42,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         "/images/**",
                         "/configuration/ui",
                         "/v2/api-docs/**",
+                        "/actuator/**",
+                        "/instances/**",
                         "/*.html",
                         "/favicon.ico",
                         "/**/*.html",
@@ -50,7 +52,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .antMatchers(HttpMethod.OPTIONS)//跨域请求会先进行一次options请求
                 .permitAll()
-                .antMatchers("/", "/public/**", "/auth/**")
+                .antMatchers("/", "/public/**", "/auth/**", "/dzjc/**")
                 .permitAll()
                 .anyRequest()// 除上面外的所有请求全部需要鉴权认证
                 .authenticated()

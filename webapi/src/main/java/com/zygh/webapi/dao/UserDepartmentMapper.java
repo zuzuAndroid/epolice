@@ -1,6 +1,5 @@
 package com.zygh.webapi.dao;
 
-import com.zygh.webapi.pojo.UserAccount;
 import com.zygh.webapi.pojo.UserDepartment;
 import org.apache.ibatis.annotations.*;
 

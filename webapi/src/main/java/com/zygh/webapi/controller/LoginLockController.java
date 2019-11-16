@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("public/login-lock")
-@Api(tags = "LoginLock", description = "登陆解锁")
+@Api(tags = "登陆解锁", description = "LoginLockController")
 public class LoginLockController {
 
     @Autowired

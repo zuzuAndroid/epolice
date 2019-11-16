@@ -1,17 +1,17 @@
-package com.zygh.webapi.dao;
+package mapper;
 
-import com.zygh.webapi.pojo.UserRole;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+import pojo.Role;
 
 import java.util.List;
 
 @Mapper
-public interface UserRoleMapper {
+public interface RoleMapper {
 
     @Select("select * from user_role where id = #{id}")
-    UserRole findById(Integer id);
+    Role findById(Integer id);
 
     @Select("select * from user_role")
-    List<UserRole> findAll();
+    List<Role> findAll();
 }
