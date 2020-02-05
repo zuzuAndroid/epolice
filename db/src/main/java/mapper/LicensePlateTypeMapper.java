@@ -1,17 +1,16 @@
 package mapper;
 
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import cache.MybatisRedisCache;
+import org.apache.ibatis.annotations.*;
 import pojo.LicensePlateType;
 
 import java.util.List;
 
 @Mapper
+@CacheNamespace(eviction = MybatisRedisCache.class,implementation = MybatisRedisCache.class)
 public interface LicensePlateTypeMapper {
 
-    @Select("select * from license_plate_type")
+    @Select("select * from license_plate_type order by code")
     List<LicensePlateType> findAll();
 
     @Update("update license_plate_type set code=#{code},name=#{name} where id=#{id}")

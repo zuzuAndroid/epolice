@@ -1,24 +1,26 @@
 package com.zygh.webapi.controller;
 
 import cn.hutool.core.util.StrUtil;
-import com.oracle.jrockit.jfr.DataType;
-import com.sun.xml.internal.ws.wsdl.writer.document.ParamType;
 import com.zygh.common.CommonResult;
+import com.zygh.webapi.aspect.NoRepeatSubmit;
 import com.zygh.webapi.domain.UserLoginRequest;
 import com.zygh.webapi.service.*;
-import com.zygh.webapi.utils.JwtTokenUtil;
 import io.swagger.annotations.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import pojo.UserInfo;
 
+import javax.annotation.Resource;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 @RestController
 @RequestMapping("/auth")
@@ -30,6 +32,9 @@ public class AuthController {
 
     @Autowired
     private UserAccountService userAccountService;
+
+    @Resource
+    private RedisTemplate<String, Object> redisTemplate;
 
     private final Logger LOGGER = LoggerFactory.getLogger(getClass());
 
@@ -60,6 +65,15 @@ public class AuthController {
         }
 
         return new CommonResult().validateFailed("登陆失败,用户名和密码不匹配");
+    }
+
+    @RequestMapping(value = "/cache-clean", method = RequestMethod.GET)
+    public void clean() {
+        Set<String> keys = redisTemplate.keys("*");
+        Iterator<String> it1 = keys.iterator();
+        while (it1.hasNext()) {
+            redisTemplate.delete(it1.next());
+        }
     }
 
 }

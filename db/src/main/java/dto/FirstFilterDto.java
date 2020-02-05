@@ -8,7 +8,7 @@ public class FirstFilterDto {
     private String username;
     private String startDate;
     private String endDate;
-    private int status;//-1:未筛选，0:通过，1:作废
+    private Integer status;//-1:未筛选，0:通过，1:作废 审核状态
     private String illegalCode;
     private int limit;
     private int pageNum;

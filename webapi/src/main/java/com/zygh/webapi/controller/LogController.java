@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("public/log")
-@Api(tags = "日志", description = "LogController")
+@RequestMapping("/log")
+@Api(tags = "日志(未启用)", description = "LogController")
 public class LogController {
 
     @Autowired

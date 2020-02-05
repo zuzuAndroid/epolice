@@ -32,4 +32,8 @@ public class CarBrandService {
     public int add(CarBrand params){
         return carBrandMapper.add(params);
     }
+
+    public int remove(int id){
+        return carBrandMapper.remove(id);
+    }
 }

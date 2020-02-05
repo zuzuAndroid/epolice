@@ -19,11 +19,11 @@ public interface LogOperationMapper {
     })
     List<LogOperation> findAll();
 
-    @Insert("insert into log_operation (user_name," +
+    @Insert("insert into log_operation (id,user_name," +
             "user_ip,oper_type," +
             "oper_event,oper_url,oper_datetime)" +
             " values " +
-            "(#{userName},#{userIp}," +
+            "(#{id},#{userName},#{userIp}," +
             "#{operType},#{operEvent},#{operUrl},#{operDateTime})")
     Integer insert(LogOperation logOperation);
 }

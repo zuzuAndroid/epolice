@@ -1,6 +1,7 @@
 package com.zygh.webapi.config;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
@@ -14,4 +15,5 @@ public class WebMvcConfig extends WebMvcConfigurationSupport {
                 .addResourceLocations("classpath:/META-INF/resources/webjars/");
         registry.addResourceHandler("/doc.html").addResourceLocations("classpath:/META-INF/resources/");
     }
+
 }

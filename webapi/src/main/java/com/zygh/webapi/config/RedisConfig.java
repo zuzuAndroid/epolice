@@ -7,13 +7,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
 import org.springframework.cache.CacheManager;
-import org.springframework.cache.annotation.CachingConfigurerSupport;
-import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.cache.annotation.*;
 import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.cache.RedisCacheConfiguration;
 import org.springframework.data.redis.cache.RedisCacheManager;
+import org.springframework.data.redis.cache.RedisCacheWriter;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
@@ -23,27 +23,38 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import java.lang.reflect.Method;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 
 @Configuration
-@AutoConfigureAfter(RedisAutoConfiguration.class)
 @EnableCaching
-public class RedisConfig extends CachingConfigurerSupport {
+@CacheConfig
+public class RedisConfig {
 
     //在没有指定缓存Key的情况下，key生成策略
     @Bean
     public KeyGenerator keyGenerator() {
-        return new KeyGenerator() {
-            @Override
-            public Object generate(Object target, Method method, Object... params) {
-                StringBuilder sb = new StringBuilder();
-                sb.append(target.getClass().getName());
-                sb.append("#"+method.getName());
-                for (Object obj : params) {
-                    sb.append(obj.toString());
-                }
-                return sb.toString();
+        return (target, method, params) -> {
+            StringBuilder sb = new StringBuilder();
+            String[] value = new String[1];
+            Cacheable cacheable = method.getAnnotation(Cacheable.class);
+            if (cacheable != null) {
+                value = cacheable.value();
             }
+            CachePut cachePut = method.getAnnotation(CachePut.class);
+            if (cachePut != null) {
+                value = cachePut.value();
+            }
+            CacheEvict cacheEvict = method.getAnnotation(CacheEvict.class);
+            if (cacheEvict != null) {
+                value = cacheEvict.value();
+            }
+            sb.append(value[0]);
+            for (Object obj : params) {
+                sb.append(":").append(obj.toString());
+            }
+            return sb.toString();
         };
     }
 
@@ -58,11 +69,18 @@ public class RedisConfig extends CachingConfigurerSupport {
         config.serializeKeysWith(RedisSerializationContext.SerializationPair.fromSerializer(redisSerializer));
         config.serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(serializer));
         // 设置缓存的默认过期时间
-        config.entryTtl(Duration.ofSeconds(3600 * 24));
+        config.entryTtl(Duration.ofDays(1));
         // 不缓存空值
         config.disableCachingNullValues();
-        RedisCacheManager cacheManager = RedisCacheManager.builder(redisConnectionFactory).cacheDefaults(config).build();
-        return cacheManager;
+
+        RedisCacheWriter redisCacheWriter = RedisCacheWriter.nonLockingRedisCacheWriter(redisConnectionFactory);
+
+        return new RedisCacheManager(redisCacheWriter, config);
+    /*
+        RedisCacheManager cacheManager = RedisCacheManager.builder(redisConnectionFactory)
+                .cacheDefaults(config)
+                .transactionAware().build();
+        return cacheManager;*/
     }
 
     @Bean

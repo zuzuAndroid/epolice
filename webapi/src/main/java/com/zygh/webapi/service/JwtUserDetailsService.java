@@ -20,8 +20,8 @@ public class JwtUserDetailsService implements UserDetailsService {
     @Autowired
     private UserAccountService userAccountService;
 
-    @Autowired(required=false)
-    private UserRoleMapper userRoleMapper;
+    @Autowired
+    private UserRoleService userRoleService;
 
     @Autowired
     private LoginAttemptService loginAttemptService;
@@ -38,7 +38,7 @@ public class JwtUserDetailsService implements UserDetailsService {
             throw new UsernameNotFoundException(String.format("No user found with username '%s'.", value));
         }
 
-        List<UserRole> roles = this.userRoleMapper.findAll();
+        List<UserRole> roles = userRoleService.findAllNoPage();
 
         return new CustomUserDetails(userAccount, roles);
     }

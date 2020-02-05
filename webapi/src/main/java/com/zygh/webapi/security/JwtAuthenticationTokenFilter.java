@@ -1,6 +1,7 @@
 package com.zygh.webapi.security;
 
 import com.zygh.webapi.utils.JwtTokenUtil;
+import io.jsonwebtoken.Claims;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,6 +48,8 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
                     authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                     LOGGER.info("authenticated user:{}", username);
                     SecurityContextHolder.getContext().setAuthentication(authentication);
+                }else{
+                    throw new ServletException("Invalid token");
                 }
             }
         }

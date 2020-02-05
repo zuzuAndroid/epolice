@@ -16,7 +16,7 @@ import pojo.FirstFilterData;
 
 
 @RestController
-@RequestMapping("/public/department")
+@RequestMapping("/department")
 @Api(tags = "部门管理", description = "UserDepartmentController")
 public class UserDepartmentController {
 

@@ -7,7 +7,7 @@ import java.util.Date;
 @Data
 public class LogOperation {
 
-    private int id;
+    private String id;
     private String userName;
     private String userIp;
     private int operType;

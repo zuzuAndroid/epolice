@@ -1,17 +1,16 @@
 package mapper;
 
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import cache.MybatisRedisCache;
+import org.apache.ibatis.annotations.*;
 import pojo.CarBrand;
 
 import java.util.List;
 
 @Mapper
+@CacheNamespace(eviction = MybatisRedisCache.class,implementation = MybatisRedisCache.class)
 public interface CarBrandMapper {
 
-    @Select("select id,code,name from car_brand")
+    @Select("select id,code,name from car_brand order by id")
     List<CarBrand> findAll();
 
     @Select("select id,code,name from car_brand where name=#{name}")
@@ -22,4 +21,7 @@ public interface CarBrandMapper {
 
     @Insert("insert into car_brand (code,name) values (#{code},#{name})")
     Integer add(CarBrand params);
+
+    @Delete("delete from car_brand where id=#{id}")
+    Integer remove(int id);
 }

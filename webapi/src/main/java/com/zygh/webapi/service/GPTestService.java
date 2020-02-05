@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.interceptor.TransactionAspectSupport;
 
 import java.util.List;
 
@@ -24,12 +25,19 @@ public class GPTestService {
         return pageInfo;
     }
 
-    @Transactional(propagation = Propagation.REQUIRED)
+    @Transactional
     public Integer update(String username,int pageSize){
-        return gpTestMapper.update(username,pageSize);
+        try {
+            return gpTestMapper.update(username,pageSize);
+        }catch (Exception e){
+            System.out.print("结果：错误"+e.toString());
+            TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
+            return -1;
+        }
+
     }
 
-    @Transactional(propagation = Propagation.REQUIRED)
+
     public Integer release(String username){
         return gpTestMapper.release(username);
     }

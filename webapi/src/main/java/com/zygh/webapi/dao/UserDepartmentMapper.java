@@ -18,7 +18,8 @@ public interface UserDepartmentMapper {
     Integer isExist(String name);
 
     @Update("update user_department set name=#{name} where id=#{id}")
-    Integer updateName(String name, int id);
+    Integer updateName(@Param("name") String name,
+                       @Param("id") int id);
 
     @Delete("DELETE FROM user_department WHERE id=#{id}")
     Integer remove(int id);

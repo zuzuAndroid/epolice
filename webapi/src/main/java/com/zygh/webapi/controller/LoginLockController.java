@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("public/login-lock")
-@Api(tags = "登陆解锁", description = "LoginLockController")
+@RequestMapping("/login-lock")
+@Api(tags = "登陆解锁(未启用)", description = "LoginLockController")
 public class LoginLockController {
 
     @Autowired

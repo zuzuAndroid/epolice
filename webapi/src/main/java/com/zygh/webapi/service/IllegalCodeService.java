@@ -6,6 +6,7 @@ import mapper.IllegalCodeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import pojo.CarBrand;
 import pojo.IllegalCode;
 
 import java.util.List;
@@ -27,5 +28,13 @@ public class IllegalCodeService {
 
     public int add(IllegalCode params){
         return illegalCodeMapper.add(params);
+    }
+
+    public int update(IllegalCode params){
+        return illegalCodeMapper.update(params);
+    }
+
+    public int remove(int id){
+        return illegalCodeMapper.remove(id);
     }
 }

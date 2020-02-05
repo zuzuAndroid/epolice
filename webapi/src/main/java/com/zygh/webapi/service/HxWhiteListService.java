@@ -6,6 +6,8 @@ import mapper.HxWhiteListMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pojo.HxWhiteList;
+import pojo.RestrictionWhiteList;
+import pojo.WhiteList;
 
 import java.util.List;
 
@@ -31,5 +33,17 @@ public class HxWhiteListService {
 
     public int exists(String number){
         return hxWhiteListMapper.exists(number);
+    }
+
+    public int add(HxWhiteList params){
+        return hxWhiteListMapper.add(params);
+    }
+
+    public Integer update(HxWhiteList params){
+        return hxWhiteListMapper.update(params);
+    }
+
+    public Integer remove(int id){
+        return hxWhiteListMapper.remove(id);
     }
 }

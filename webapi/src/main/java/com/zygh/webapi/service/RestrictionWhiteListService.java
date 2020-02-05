@@ -29,11 +29,26 @@ public class RestrictionWhiteListService {
         return pageInfo;
     }
 
+    public PageInfo findByRemark(String value,int pageNum, int pageSize){
+        PageHelper.startPage(pageNum, pageSize);
+        List<RestrictionWhiteList> list = restrictionWhiteListMapper.findByRemark(value);
+        PageInfo<RestrictionWhiteList> pageInfo = new PageInfo<>(list);
+        return pageInfo;
+    }
+
     public int exists(String number){
         return restrictionWhiteListMapper.exists(number);
     }
 
     public int add(RestrictionWhiteList params){
         return restrictionWhiteListMapper.add(params);
+    }
+
+    public Integer update(RestrictionWhiteList params){
+        return restrictionWhiteListMapper.update(params);
+    }
+
+    public Integer remove(int id){
+        return restrictionWhiteListMapper.remove(id);
     }
 }

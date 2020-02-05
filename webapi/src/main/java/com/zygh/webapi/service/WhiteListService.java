@@ -16,6 +16,10 @@ public class WhiteListService {
     @Autowired
     WhiteListMapper whiteListMapper;
 
+    public List<WhiteList> findAll(){
+        return whiteListMapper.findAll();
+    }
+
     public PageInfo publicFindAll(int pageNum, int pageSize){
         PageHelper.startPage(pageNum, pageSize);
         List<WhiteList> list = whiteListMapper.PublicFindAll();
@@ -26,6 +30,13 @@ public class WhiteListService {
     public PageInfo publicFindByLicenseNumber(String number,int pageNum, int pageSize){
         PageHelper.startPage(pageNum, pageSize);
         List<WhiteList> list = whiteListMapper.PublicFindByLicenseNumber(number);
+        PageInfo<WhiteList> pageInfo = new PageInfo<>(list);
+        return pageInfo;
+    }
+
+    public PageInfo privateFindByLicenseNumber(String number,int pageNum, int pageSize){
+        PageHelper.startPage(pageNum, pageSize);
+        List<WhiteList> list = whiteListMapper.privateFindByLicenseNumber(number);
         PageInfo<WhiteList> pageInfo = new PageInfo<>(list);
         return pageInfo;
     }
@@ -47,5 +58,21 @@ public class WhiteListService {
 
     public int add(WhiteList params){
         return whiteListMapper.add(params);
+    }
+
+    public int addToPrivate(WhiteList params){
+        return whiteListMapper.addPrivate(params);
+    }
+
+    public int checkForValide(String hphm,String dateTime){
+        return whiteListMapper.checkForValide(hphm,dateTime);
+    }
+
+    public Integer remove(int id){
+        return whiteListMapper.remove(id);
+    }
+
+    public Integer privateUpdate(WhiteList params){
+        return whiteListMapper.privateUpdate(params);
     }
 }

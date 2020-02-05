@@ -18,9 +18,9 @@ public interface GPTestMapper {
     List<GPTest> findByName(String username);
 
 
-    @Update("update wfcs set username = #{username} WHERE sysid = any(array(select sysid from wfcs where username = '' AND sfsh = '-1' AND sjzt = 2 " +
-            "AND to_date(cjsj,'yyyy-MM-dd hh24:mi:ss') >= to_date('2019-01-03 00:00:00','yyyy-MM-dd hh24:mi:ss') " +
-            "AND to_date(cjsj,'yyyy-MM-dd hh24:mi:ss') <= to_date('2019-10-10 00:00:00','yyyy-MM-dd hh24:mi:ss') limit #{pageSize} for update))")
+    @Update("update wfcs set username = #{username} WHERE sysid = any(array(select sysid from wfcs where username='' AND sfsh =-1 " +
+            "AND to_date(cjsj,'yyyy-MM-dd hh24:mi:ss') >= to_date('2019-12-01 00:00:00','yyyy-MM-dd hh24:mi:ss') " +
+            "AND to_date(cjsj,'yyyy-MM-dd hh24:mi:ss') <= to_date('2019-12-05 00:00:00','yyyy-MM-dd hh24:mi:ss') limit #{pageSize}))")
     Integer update(String username,int pageSize);
 
 

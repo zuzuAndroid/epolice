@@ -15,7 +15,7 @@ import pojo.LicensePlateColor;
 import pojo.LicensePlateType;
 
 @RestController
-@RequestMapping("/public/license-plate-color")
+@RequestMapping("/license-plate-color")
 @Api(tags = "车牌颜色", description = "LicensePlateColorController")
 public class LicensePlateColorController {
 

@@ -13,7 +13,7 @@ import pojo.CarBrand;
 import pojo.LicensePlateType;
 
 @RestController
-@RequestMapping("/public/license-type")
+@RequestMapping("/license-type")
 @Api(tags = "车牌种类", description = "LicensePlateTypeController")
 public class LicensePlateTypeController {
 

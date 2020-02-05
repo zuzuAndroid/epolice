@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efdff793-2504-4143-afdd-11fcc0f070d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_FILE_PATH_IS_UNDEFINED/log_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_FILE_PATH_IS_UNDEFINED/log_info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_FILE_PATH_IS_UNDEFINED/log_warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/cache/MybatisRedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/cache/SpringContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/dto/FilterCountDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/dto/UserPasswordDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/mapper/AllRoadEquipmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/mapper/AreaCodeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/mapper/EvidenceTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/mapper/HomeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/mapper/IllegalDataSourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/mapper/ReviewFilterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/mapper/V2CheckpointEquipmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/mapper/V2IllegalParkingEquipmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/pojo/AllRoadEquipmentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/pojo/AreaCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/pojo/EvidenceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/pojo/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/pojo/ReviewFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/pojo/RoadStatisticsReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/pojo/RoadTotalStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/pojo/V2CheckpointEquipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/pojo/V2IllegalParkingEquipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/cache/MybatisRedisCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/cache/SpringContextHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/dto/FilterCountDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/dto/FirstFilterDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/dto/UserPasswordDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/AllRoadEquipmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/AreaCodeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/CarBrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/CarColorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/CarTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/CheckFilterMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/DepartmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/DirectionCodeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/EvidenceTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/FirstFilterMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/HomeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/HxWhiteListMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/IllegalCodeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/IllegalDataSourceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/InvalidFilterMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/LicensePlateColorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/LicensePlateTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/RestrictionWhiteListMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/ReviewFilterMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/RoadEquipmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/StatisticsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/UserAccountMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/V2CheckpointEquipmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/V2FirstFilterMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/V2IllegalParkingEquipmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/V2RoadEquipmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/mapper/WhiteListMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/AllRoadEquipmentView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/AreaCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/CarBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/CarColor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/CarType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/CheckFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/DirectionCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/EvidenceType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/FirstFilterData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/FirstFilterStatistics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/Home.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/HxWhiteList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/IllegalCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/IllegalDataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/InvalidFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/LicensePlateColor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/LicensePlateType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/RestrictionWhiteList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/ReviewFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/RoadEquipment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/RoadStatistics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/RoadStatisticsReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/RoadTotalStatistics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/UserAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/V2CheckpointEquipment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/V2FirstFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/V2IllegalParkingEquipment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/V2RoadEquipment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/classes/pojo/WhiteList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/db-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/epolice.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/aspect/NoRepeatSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/aspect/NoRepeatSubmitAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/component/CustomizationBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/AreaCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/DataCheckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/EvidenceTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/ExportExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/GPTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/IllegalDataSourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/ReviewFilterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2CheckpointEquipmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2IllegalParkingEquipmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/pojo/ExcelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/AllRoadEquipmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/AreaCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/CarTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/EvidenceTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/HomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/IllegalDataSourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/ReviewFilterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2CheckpointEquipmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2IllegalParkingEquipmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/utils/ExportExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/utils/RedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/utils/RequestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapi/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db.iml" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/dto/FirstFilterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/dto/FirstFilterDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/CarBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/CarBrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/CarColorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/CarColorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/CarTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/CarTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/DepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/DirectionCodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/DirectionCodeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/FirstFilterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/FirstFilterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/HxWhiteListMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/HxWhiteListMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/IllegalCodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/IllegalCodeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/IllegalDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/InvalidFilterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/InvalidFilterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/LicensePlateColorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/LicensePlateColorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/LicensePlateTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/LicensePlateTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/RestrictionWhiteListMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/RestrictionWhiteListMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/RoadEquipmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/RoadEquipmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/StatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/StatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/UserAccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/UserAccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/UserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/V2RoadEquipmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/V2RoadEquipmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/mapper/WhiteListMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/mapper/WhiteListMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/CarBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/CarBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/FirstFilterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/FirstFilterData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/FirstFilterStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/FirstFilterStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/HxWhiteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/HxWhiteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/InvalidFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/InvalidFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/RestrictionWhiteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/RestrictionWhiteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/RoadStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/RoadStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/V2RoadEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/V2RoadEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/pojo/WhiteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/pojo/WhiteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epolice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/epolice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/WebapiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/WebapiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/component/ScheduledTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/component/ScheduledTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/MyBatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/CarBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/CarBrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/CarColorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/CarColorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/DirectionCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/DirectionCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/FirstFilterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/FirstFilterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/HxWhiteListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/HxWhiteListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/IllegalCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/IllegalCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/InvalidFilterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/InvalidFilterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LicensePlateColorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LicensePlateColorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LicensePlateTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LicensePlateTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LimitIpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LimitIpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LoginLockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LoginLockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LoginSetupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/LoginSetupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/RestrictionWhiteListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/RestrictionWhiteListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/RoadEquipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/RoadEquipmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/StatisticsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/StatisticsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/UserAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/UserAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/UserDepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/UserDepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/UserRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/UserRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2FirstFilterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2FirstFilterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2RoadEquipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2RoadEquipmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/WhiteListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/WhiteListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/dao/GPTestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/dao/GPTestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/dao/LogOperationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/dao/LogOperationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/dao/UserDepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/dao/UserDepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/pojo/LogOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/pojo/LogOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/security/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/security/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/security/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/security/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/CarBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/CarBrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/CarColorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/CarColorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/FirstFilterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/FirstFilterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/GPTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/GPTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/HxWhiteListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/HxWhiteListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/IllegalCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/IllegalCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/InvalidFilterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/InvalidFilterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/RestrictionWhiteListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/RestrictionWhiteListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/RoadEquipmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/RoadEquipmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/StatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/StatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/UserAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/UserAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/UserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2RoadEquipmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2RoadEquipmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/WhiteListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/WhiteListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapi/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/api/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/webapi/target/" />
+    <ignored path="$PROJECT_DIR$/db/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/FirstFilterMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4054">
+              <caret line="312" selection-start-line="312" selection-end-line="312" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wfcs</find>
+      <find>sysid</find>
+      <find>PLATE_NUMBER</find>
+      <find>to_date</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/webapi/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/webapi/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/CarTypeService.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/UserAccountService.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/UserAccountController.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2CheckpointEquipmentService.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/V2CheckpointEquipmentMapper.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/dto/FirstFilterDto.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/pojo/FirstFilterData.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/pojo/ReviewFilter.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/pojo/InvalidFilter.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/UserAccountMapper.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/DepartmentMapper.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/dao/UserDepartmentMapper.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/pojo/AllRoadEquipmentView.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/InvalidFilterService.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/InvalidFilterController.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/LicensePlateTypeMapper.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/InvalidFilterMapper.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/ExportExcelController.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/RoadEquipmentController.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/AllRoadEquipmentService.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/StatisticsMapper.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/HomeMapper.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2CheckpointEquipmentController.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/V2RoadEquipmentMapper.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2RoadEquipmentService.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2RoadEquipmentController.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/V2IllegalParkingEquipmentMapper.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2IllegalParkingEquipmentService.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2IllegalParkingEquipmentController.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/AllRoadEquipmentMapper.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/FirstFilterService.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/FirstFilterController.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/RoadEquipmentMapper.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/ReviewFilterController.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/HomeService.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/security/JwtAuthenticationTokenFilter.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/FirstFilterMapper.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/pojo/WhiteList.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/WhiteListMapper.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/WhiteListService.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/WhiteListController.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/component/ScheduledTask.java" />
+        <option value="$PROJECT_DIR$/db/src/main/java/mapper/ReviewFilterMapper.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/ReviewFilterService.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/DataCheckController.java" />
+        <option value="$PROJECT_DIR$/webapi/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="epolice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="epolice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="26" />
+    <option name="width" value="2032" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epolice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epolice" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db/src/main/java/mapper" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/java/com/zygh/common" />
+      <recent name="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/domain" />
+      <recent name="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller" />
+      <recent name="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/utils" />
+      <recent name="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/security" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db/src/main/java/mapper" />
+      <recent name="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service" />
+      <recent name="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller" />
+      <recent name="$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/utils" />
+      <recent name="$PROJECT_DIR$/common/src/main/java/com/zygh/common/utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.13506626" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebapiApplication">
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zygh.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zygh.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EpoliceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="epolice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zygh.epolice.EpoliceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="webapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zygh.webapi.WebapiApplication" />
+      <option name="PROGRAM_PARAMETERS" value="–spring.profiles.active=dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.EpoliceApplication" />
+      <item itemvalue="Spring Boot.WebapiApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efdff793-2504-4143-afdd-11fcc0f070d1" name="Default Changelist" comment="" />
+      <created>1568075597802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568075597802</updated>
+      <workItem from="1568075600082" duration="6881000" />
+      <workItem from="1568110396925" duration="1192000" />
+      <workItem from="1568188577303" duration="7584000" />
+      <workItem from="1568248185147" duration="6329000" />
+      <workItem from="1568343638409" duration="5343000" />
+      <workItem from="1568429393451" duration="7044000" />
+      <workItem from="1568593122926" duration="8722000" />
+      <workItem from="1568775797958" duration="15714000" />
+      <workItem from="1568855801859" duration="18256000" />
+      <workItem from="1568939232750" duration="19434000" />
+      <workItem from="1569027175013" duration="11681000" />
+      <workItem from="1569199244275" duration="854000" />
+      <workItem from="1569666234410" duration="395000" />
+      <workItem from="1570502783730" duration="1924000" />
+      <workItem from="1570592186496" duration="6615000" />
+      <workItem from="1570672821602" duration="13607000" />
+      <workItem from="1570840817275" duration="12538000" />
+      <workItem from="1571012837000" duration="14209000" />
+      <workItem from="1571358718144" duration="65427000" />
+      <workItem from="1572401599013" duration="78101000" />
+      <workItem from="1573717364325" duration="600000" />
+      <workItem from="1573719994284" duration="7357000" />
+      <workItem from="1573790216210" duration="32451000" />
+      <workItem from="1574040634500" duration="48082000" />
+      <workItem from="1574150327534" duration="9377000" />
+      <workItem from="1574209507130" duration="68626000" />
+      <workItem from="1574990647688" duration="122499000" />
+      <workItem from="1575882010596" duration="86766000" />
+      <workItem from="1576652911124" duration="590000" />
+      <workItem from="1576654337022" duration="3957000" />
+      <workItem from="1576659767429" duration="4519000" />
+      <workItem from="1576716097573" duration="43683000" />
+      <workItem from="1577238858567" duration="21445000" />
+      <workItem from="1577499544199" duration="22813000" />
+      <workItem from="1577786743686" duration="334000" />
+      <workItem from="1577870664357" duration="40742000" />
+      <workItem from="1578358507087" duration="37974000" />
+      <workItem from="1578707202803" duration="23818000" />
+    </task>
+    <task id="LOCAL-00001" summary="1.0">
+      <created>1573886870330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573886870330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.1">
+      <created>1573889991948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573889991948</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.1">
+      <created>1573898654049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573898654049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="877483000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="26" width="2032" height="1040" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23869346" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32172996" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2921941" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32947367" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32947367" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.25316456" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.29263157" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.08755274" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.15175879" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34623116" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32172996" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2921941" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32947367" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32947367" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.25316456" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.29263157" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.30801687" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15175879" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0" />
+    <MESSAGE value="1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/pojo/FirstFilterStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/StatisticsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/InvalidFilterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="30" column="115" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/pojo/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/UserAccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/AllRoadEquipmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/pojo/V2RoadEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/V2RoadEquipmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="129" column="76" selection-start-line="129" selection-start-column="76" selection-end-line="129" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2CheckpointEquipmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/pojo/FirstFilterData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/V2CheckpointEquipmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="76" column="71" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="76" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/pojo/V2IllegalParkingEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2RoadEquipmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="113" column="5" lean-forward="true" selection-start-line="107" selection-start-column="4" selection-end-line="113" selection-end-column="5" />
+          <folding>
+            <element signature="e#3620#3621#0" expanded="true" />
+            <element signature="e#3688#3689#0" expanded="true" />
+            <element signature="e#3746#3747#0" expanded="true" />
+            <element signature="e#3811#3812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/V2IllegalParkingEquipmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="43" column="69" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2CheckpointEquipmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="248" column="5" lean-forward="true" selection-start-line="162" selection-start-column="4" selection-end-line="248" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2IllegalParkingEquipmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2386">
+          <caret line="233" column="18" selection-start-line="233" selection-start-column="18" selection-end-line="233" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/V2IllegalParkingEquipmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="71" column="57" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="57" />
+          <folding>
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/LicensePlateTypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/CarTypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/pojo/ReviewFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4133" />
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/pojo/AreaCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/pojo/AllRoadEquipmentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/dto/FirstFilterDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/AllRoadEquipmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-838">
+          <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/RoadEquipmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/RoadEquipmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/HomeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/HomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+          <folding>
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/FirstFilterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="178" column="5" lean-forward="true" selection-start-line="176" selection-start-column="4" selection-end-line="178" selection-end-column="5" />
+          <folding>
+            <element signature="e#4768#4769#0" expanded="true" />
+            <element signature="e#4814#4815#0" expanded="true" />
+            <element signature="e#4843#4844#0" expanded="true" />
+            <element signature="e#4891#4892#0" expanded="true" />
+            <element signature="e#4925#4926#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
+            <element signature="e#5550#5551#0" expanded="true" />
+            <element signature="e#5599#5600#0" expanded="true" />
+            <element signature="e#5656#5657#0" expanded="true" />
+            <element signature="e#5677#5678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/security/JwtAuthenticationTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/utils/JwtTokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zygh/common/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/V2RoadEquipmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="178" column="29" lean-forward="true" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/FirstFilterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="377" column="75" lean-forward="true" selection-start-line="377" selection-start-column="75" selection-end-line="377" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/pojo/WhiteList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/WhiteListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+          <folding>
+            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2240#2241#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/WhiteListMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/service/ReviewFilterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="140" column="33" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="33" />
+          <folding>
+            <element signature="e#3954#3955#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="e#4193#4194#0" expanded="true" />
+            <element signature="e#4240#4241#0" expanded="true" />
+            <element signature="e#4274#4275#0" expanded="true" />
+            <element signature="e#4324#4325#0" expanded="true" />
+            <element signature="e#4369#4370#0" expanded="true" />
+            <element signature="e#4409#4410#0" expanded="true" />
+            <element signature="e#4474#4475#0" expanded="true" />
+            <element signature="e#4495#4496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/DataCheckController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/ReviewFilterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="359" column="5" selection-start-line="338" selection-start-column="4" selection-end-line="359" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/ReviewFilterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4770">
+          <caret line="270" column="26" selection-start-line="270" selection-start-column="12" selection-end-line="270" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#1575#1576#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/component/ScheduledTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/zygh/webapi/controller/WhiteListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapi/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/main/java/mapper/FirstFilterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4054">
+          <caret line="312" selection-start-line="312" selection-end-line="312" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>portal</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean -U" />
+  </component>
+</project>

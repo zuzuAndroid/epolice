@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import pojo.CarBrand;
 
 @RestController
-@RequestMapping("/public/car-brand")
+@RequestMapping("/car-brand")
 @Api(tags = "车标品牌", description = "CarBrandController")
 public class CarBrandController {
 
@@ -76,5 +76,25 @@ public class CarBrandController {
         }
 
         return new CommonResult().validateFailed("更新失败");
+    }
+
+    @ApiOperation("车标品牌删除")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "id",value = "id", required = true, paramType = "query"),
+    })
+    @RequestMapping(value = "/remove", method = RequestMethod.POST)
+    public Object remove(@RequestBody CarBrand params) {
+
+        if(StrUtil.isEmpty(String.valueOf(params.getId()))){
+            return new CommonResult().validateFailed("ID不能为空");
+        }
+
+        int res = carBrandService.remove(params.getId());
+
+        if(res > 0){
+            return new CommonResult().success();
+        }
+
+        return new CommonResult().validateFailed("删除失败");
     }
 }

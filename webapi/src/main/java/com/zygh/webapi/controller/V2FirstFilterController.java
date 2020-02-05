@@ -12,8 +12,8 @@ import pojo.FirstFilterData;
 import pojo.V2FirstFilter;
 
 @RestController
-@RequestMapping("/public/v2-first-filter")
-@Api(tags = "二期违法初筛", description = "V2FirstFilterController")
+@RequestMapping("/v2-first-filter")
+@Api(tags = "二期违法初筛(作废)", description = "V2FirstFilterController")
 public class V2FirstFilterController {
 
     @Autowired

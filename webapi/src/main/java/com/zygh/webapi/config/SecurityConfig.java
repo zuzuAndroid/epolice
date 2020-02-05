@@ -52,7 +52,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .antMatchers(HttpMethod.OPTIONS)//跨域请求会先进行一次options请求
                 .permitAll()
-                .antMatchers("/", "/public/**", "/auth/**", "/dzjc/**")
+                .antMatchers("/", "/public/**", "/auth/**","/statistics/**")
                 .permitAll()
                 .anyRequest()// 除上面外的所有请求全部需要鉴权认证
                 .authenticated()
@@ -114,4 +114,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         bean.setOrder(0);
         return new CorsFilter(source);
     }
+
+
 }

@@ -19,7 +19,8 @@ public interface DepartmentMapper {
     Integer isExist(String name);
 
     @Update("update department set name=#{name} where id=#{id}")
-    Integer updateName(String name, int id);
+    Integer updateName(@Param("name") String name,
+                       @Param("id") int id);
 
     @Delete("DELETE FROM department WHERE id=#{id}")
     Integer remove(int id);

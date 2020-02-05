@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import pojo.DirectionCode;
 
 @RestController
-@RequestMapping("/public/direction-code")
+@RequestMapping("/direction-code")
 @Api(tags = "方向编码", description = "DirectionCodeController")
 public class DirectionCodeController {
 

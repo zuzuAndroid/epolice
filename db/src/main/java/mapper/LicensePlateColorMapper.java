@@ -11,7 +11,7 @@ import java.util.List;
 @Mapper
 public interface LicensePlateColorMapper {
 
-    @Select("select * from license_plate_color")
+    @Select("select * from license_plate_color order by id")
     List<LicensePlateColor> findAll();
 
     @Update("update license_plate_color set code=#{code},name=#{name} where id=#{id}")

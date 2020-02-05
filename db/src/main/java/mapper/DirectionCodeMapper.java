@@ -11,7 +11,7 @@ import java.util.List;
 @Mapper
 public interface DirectionCodeMapper {
 
-    @Select("select * from direction_code")
+    @Select("select * from direction_code order by id")
     List<DirectionCode> findAll();
 
     @Update("update direction_code set code=#{code},name=#{name} where id=#{id}")

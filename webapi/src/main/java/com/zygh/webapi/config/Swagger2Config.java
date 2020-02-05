@@ -31,9 +31,9 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("非现系统API接口文档")
-                .description("中裕广恒")
-                .contact(new Contact("中裕广恒", null, null))
+                .title("非现V2系统API接口文档")
+                .description("中裕广恒 研发部")
+                .contact(new Contact("中裕广恒 研发部", "http://127.0.0.1", "yfb@zygh.com"))
                 .version("1.0")
                 .build();
     }
