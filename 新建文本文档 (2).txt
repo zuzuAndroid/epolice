@@ -1,0 +1,7 @@
+前缀：/public/illegal-Parking-Police
+
+	查询未筛选数据：/query-filter  post请求  参数{ startDate:开始时间；endDate:结束时间；hphm:号牌号码；hpzl:号牌种类；illegalCode:违法代码}
+	查询违法数据：/query-search  post请求  参数{ startDate:开始时间；endDate:结束时间；hphm:号牌号码；hpzl:号牌种类；illegalCode:违法代码；status:通过、作废、未审核}
+	根据id查询：      /findById  get请求  参数{ id }
+	通过：	         /invalid/{id}
+	作废：	         /pass/{id}
